@@ -65,3 +65,4 @@ O programa implementa *debouncing* via software, ignorando múltiplos acionament
 ---
 
 ## **Video demonstrativo:**
+https://youtu.be/tiZsCVg9-Tw?si=tkhR51iKKS4kqDDE
