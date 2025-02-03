@@ -1,5 +1,5 @@
 
-# **Descrição Geral**
+## **Descrição Geral**
 
 Este programa foi desenvolvido para ser executado em uma Raspberry Pi Pico W e utiliza uma matriz de LEDs WS2812B para exibir números de 0 a 9. Isso ocorre conforme o uso de botões físicos para navegar entre os números, incrementando ou decrementando o valor exibido.
  Além disso, o programa utiliza um LED RGB que pisca continuamente 5 vezes por segundo, funcionando como um indicador visual do funcionamento do sistema.
@@ -53,6 +53,8 @@ O programa implementa *debouncing* via software, ignorando múltiplos acionament
 | LED RGB Verde      | GPIO11    |
 
 ---
+## Melhorias
+Tratamento de concorrências para evitar possíveis condições de corrida.
 
 ## **Como Usar**
 
